@@ -35,7 +35,7 @@ const totalBelanjaan = (param) => {
   for (let i = 0; i < param.length; i++) {
     tempTotalBelanjaan += param[i].harga * param[i].kuantitas;
   }
-  return tempTotalBelanjaan.toString();
+  return tempTotalBelanjaan;
 };
 
 // ! JANGAN DIMODIFIKASI
